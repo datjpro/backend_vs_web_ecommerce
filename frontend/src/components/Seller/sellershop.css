@@ -1,0 +1,78 @@
+.shop-header {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 1rem auto;
+  }
+  
+  .shop-info-left {
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+  }
+  
+  .shop-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .shop-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shop-name {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .shop-online {
+    font-size: 14px;
+    color: gray;
+    margin: 4px 0;
+  }
+  
+  .shop-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-btn,
+  .view-btn {
+    padding: 6px 14px;
+    border: 1px solid #ee4d2d;
+    background-color: white;
+    color: #ee4d2d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .chat-btn:hover,
+  .view-btn:hover {
+    background-color: #ffeee8;
+  }
+  
+  .shop-info-right {
+     margin-top: 1.6rem;
+
+  }
+  
+  .shop-stat {
+    text-align: center;
+  }
+  
+  .stat-title {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 0.8rem;
+    margin-left: 4rem;
+    padding: 0.2rem 0;
+  }
+  

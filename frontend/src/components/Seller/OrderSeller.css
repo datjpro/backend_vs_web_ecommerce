@@ -1,0 +1,42 @@
+.order-seller {
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  min-height: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.order-seller h2 {
+  margin-bottom: 20px;
+  color: #2d3a4b;
+  font-size: 1.5rem;
+}
+
+.order-seller table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafbfc;
+}
+
+.order-seller th,
+.order-seller td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.order-seller th {
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+}
+
+.order-seller tr:hover {
+  background: #f1f5f9;
+}
+
+.order-seller p {
+  margin-top: 20px;
+  color: #888;
+  font-size: 1.1rem;
+}

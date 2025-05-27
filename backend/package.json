@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-all-dev": "concurrently --names \"CART,CATEGORY,CUSTOMER,DISCOUNT,ORDER,ORDER-DET,PAYMENT,PRODUCT,REVIEW,SELLER,TRANSPORT,USER\" --prefix-colors \"red,green,yellow,blue,magenta,cyan,white,gray,brightRed,brightGreen,brightYellow,brightBlue\" \"cd cart-service && node index.js\" \"cd category-service && node index.js\" \"cd customer-service && node index.js\" \"cd discount-service && node index.js\" \"cd order-service && node index.js\" \"cd orderDetails-service && node index.js\" \"cd payment-service && node index.js\" \"cd product-service && node index.js\" \"cd review-service && node index.js\" \"cd seller-service && node index.js\" \"cd transport-service && node index.js\" \"cd user-service && node index.js\"",
+    "start-all": "concurrently \"cd cart-service && node index.js\" \"cd category-service && node index.js\" \"cd customer-service && node index.js\" \"cd discount-service && node index.js\" \"cd order-service && node index.js\" \"cd orderDetails-service && node index.js\" \"cd payment-service && node index.js\" \"cd product-service && node index.js\" \"cd review-service && node index.js\" \"cd seller-service && node index.js\" \"cd transport-service && node index.js\" \"cd user-service && node index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.6.1",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "mongoose": "^8.14.2",
+    "nodemon": "^3.1.10"
+  }
+}

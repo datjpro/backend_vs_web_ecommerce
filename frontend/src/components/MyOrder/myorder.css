@@ -1,0 +1,33 @@
+.my-order {
+  width: 80%;
+  background-color: #fff;
+  margin: 1rem auto;
+}
+
+.my-order h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+.my-noOrder{
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  width: 80%;
+  margin: 2rem auto;
+}
+.order-card {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.order-header p, .order-total p{
+  padding: 0.5rem 0;
+  color: black;
+}
+.order-header p>strong, .order-total p>strong{
+  color: red;
+}
+.order-product img{
+  width: 10%;
+}
